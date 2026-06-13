@@ -14,14 +14,10 @@ This project implements timer-based interrupts and a cyclic executive scheduler 
 
 ## Hardware
 
-| Component | Details |
-|---|---|
-| Board | RT-Thread RT-Spark Development Board |
-| MCU | STM32F407ZGT6 (LQFP144) |
-| LED (Red) | PF11 |
-| LED (Blue) | PF12 |
-| User Button | PC5 (EXTI, falling edge) |
-| Debug Pin | PE0 |
+- RT-Thread RT-Spark Development Board (STM32F407ZGT6)
+- LEDs: PF11 (Red), PF12 (Blue)
+- User Button: PA0
+- Debug Pin: PE0
 
 ---
 
@@ -45,12 +41,6 @@ This project implements timer-based interrupts and a cyclic executive scheduler 
 | T_ISR(TIM2) | Time spent inside TIM2 ISR | 4.31 | µs |
 | T_Task(Task A) | Task A execution time | 50 | ms |
 | T_Response(Task A) | Total response time | 50.024 | ms |
-
----
-
-## Sequence Diagram
-
-> *(Insert sequence diagram image here)*
 
 ---
 
